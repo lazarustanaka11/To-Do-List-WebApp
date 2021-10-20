@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-8(%x)2%c(*-k3oeow(u5y6)8&22!6x=i&q7*z!7v$jzz+kv-%3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ 'lazarus-to-do-list.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = [ 'https://lazarus-to-do-list.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -121,7 +121,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 LOGIN_URL= 'sign-in'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'templates')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles
+                           
+                           ')
 
 STATIC_URL = '/static/'
 
