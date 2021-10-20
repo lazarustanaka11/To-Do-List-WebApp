@@ -121,7 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 LOGIN_URL= 'sign-in'
 
-STATIC_ROOT = os.path.join(BASE_DIR/base, 'templates')
+STATIC_ROOT = os.path.join(BASE_DIR, 'templates')
 
 STATIC_URL = '/static/'
 
